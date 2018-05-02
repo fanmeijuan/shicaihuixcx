@@ -1,0 +1,370 @@
+.search-view{
+  z-index:500;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.serarch-content{
+  box-sizing: border-box;
+   background: white;
+   width:76%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-top: auto;
+   padding-left: 20rpx;
+   padding-bottom: auto;
+   height: 70rpx;
+   border-radius:5px 5px;
+   float:left;
+
+}
+.search_left{
+  width:26%;
+float:left;
+height:60rpx;
+font-size:0.8rem;
+color:#666;
+margin-right:20rpx;
+
+
+}
+.search_left navigator{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+ border-radius: 10rpx;
+ padding:10rpx;
+ overflow:hidden; 
+  text-overflow:ellipsis;
+  white-space:nowrap;  
+
+}
+.search-icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.search-input{
+  width: 500rpx;
+  font-size: 28rpx;
+}
+.search-btn{
+  width: 150rpx;
+  height: 70rpx;
+  margin-right: 0rpx;
+  background-color:blueviolet;
+  font-size: 28rpx;
+  align-items: center;
+  border-top-left-radius: 0rpx;
+  border-bottom-left-radius: 0rpx;
+  color:#fff;
+  border:none;
+  position: relative;
+}
+.coupons{
+  width: 100%;
+  height: 200rpx;
+}
+.coupons-scroll{
+  white-space:nowrap;
+  
+  width: 100%;
+  height: 100%;
+  
+}
+.cou-box{
+  width: 160rpx;
+  height: 100%;
+  border: 1px solid red;
+ display: inline-block;
+
+}
+.swiper_box1 .swipem2{
+  box-sizing: border-box;
+  width: 25%;
+  height: 100rpx;
+  float:left;
+  padding:4rpx;
+}
+.swiper-container{
+  width: 100%;
+  height:107rpx;
+  position: relative; 
+  box-sizing: border-box; 
+}
+.nav{
+  width:100%;
+height:210rpx;
+box-sizing:border-box;
+padding-top:20rpx;
+
+}
+.nav-box{
+  box-sizing: border-box;
+  width: 24%;
+  height: 140rpx;
+  
+   text-align: center;
+  padding:14rpx;
+  margin-bottom:20rpx;
+  float:left;
+  
+
+}
+.flex-wrp{
+  box-sizing: border-box;
+}
+.swiper_box1{
+  width: 100%;
+  height:100%;
+}
+ .nav-box image{
+  
+  width: 64%;
+  height:90%;
+} 
+.notice{
+  display: flex;
+  justify-content: space-between;  
+  flex-wrap:wrap;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 750rpx;
+  margin-top: 10rpx;
+  background-color: #fff;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+.notice_swiper{
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 550rpx;
+}
+.notice_iteml {
+  padding-left: 25rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  font-size: 26rpx;
+  width: 80rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #999;
+}
+.notice_itemr {
+  padding-left: 10rpx;
+  font-size: 26rpx;
+  overflow: hidden;
+  color: #e64340;
+  width: 635rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.goods-container{
+  display: flex;
+  justify-content: space-between;  
+  flex-wrap:wrap;
+  box-sizing: content-box;
+  padding: 24rpx;
+}
+.goods-box{
+  width: 339rpx;
+  height: 472rpx;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+}
+.goods-box .img-box{
+  width: 339rpx;
+  height: 339rpx;
+  overflow: hidden;
+}
+.goods-box .img-box image{
+   width: 339rpx;
+   height: 339rpx;
+}
+.goods-box .goods-title{
+  width: 280rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 24rpx;
+  padding: 24rpx 0 0rpx 0;
+  color:#000;
+  margin-left: 24rpx;
+}
+.goods-box .goods-price{
+  width: 280rpx;
+  overflow: hidden;
+  font-size: 24rpx;
+  padding: 24rpx 0;
+  color:#e64340;
+  margin-left: 24rpx;
+}
+.no-more-goods{
+  text-align: center;
+  font-size: 24rpx;
+  padding-bottom:48rpx; 
+  color: #999;
+}
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+}
+.swiper_box1{
+  /* width: 500px; */
+  float:left;
+  white-space: pre-wrap;
+}
+.swiper_box1 swiper-item{
+  width: 120px!important;
+  height: 60px!important;
+ 
+ 
+}
+.swiper_box1 swiper-item image{
+  width: 100%;
+  height: 100%;
+ margin:10px!important;
+}
+.swiper-container2{
+  height: 60px;
+}
+.swiper_box2 swiper-item{
+  width: 120px!important;
+  height: 80px!important;
+}
+.swiper_box2 swiper-item image{
+  width: 100%;
+  height: 100%;
+ margin:10px!important;
+}
+.swiper-container3{
+  height: 80px;
+}
+.line_red{
+  background: red;
+  height: 20rpx;
+  width: 4rpx;
+  display: inline-block;
+ margin-left:30rpx;
+
+}
+.title{
+  font-size: 0.9rem;
+  margin:10rpx;
+}
+.nav-box2{
+ box-sizing:border-box;
+width:33%;
+height:160rpx;
+text-align:center;
+padding:16rpx;
+float:left;
+border: 1px solid #ddd;
+margin-bottom:0;
+}
+.nav2{
+  height: 380rpx;
+}
+/*新闻咨询  */
+.news_information{
+  width: 100%;
+  height: 400rpx;
+  box-sizing: border-box;
+  padding:20rpx;
+}
+.news_left{
+  box-sizing: border-box;
+  width: 46%;
+  height: 100%;
+  
+  float:left;
+}
+.news_right{
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  float:right;
+  margin-left:20rpx;
+}
+.swiper-container4{
+  width: 100%;
+  height: 100%;
+ 
+}
+.news_content{
+  width: 100%;
+  height: 50rpx;
+  font-size: 0.8rem;
+  line-height: 50rpx;
+  background:#FFc540; 
+  position: absolute;
+  color:#fff;
+  left:0;
+  bottom:0;
+  text-align: center;
+}
+.swiper_box4{
+  height: 100%;
+}
+.news_list{
+  width: 100%;
+  height: 120rpx;
+  border-bottom: 1px dashed #ddd;
+}
+.news_list text{
+  display: block;
+  padding:0 10rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.shop_information{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding:0 60rpx;
+
+}
+.shop_information .shop_list{
+  box-sizing: border-box;
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  margin-bottom:20rpx;
+  
+}
+.shop_information .shop_list image{
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.shop_information .shop_list text{
+  display: inline-block;
+  width: 60%;
+  font-size: 0.8rem;
+  color:#777;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  margin-left:10rpx;
+
+}

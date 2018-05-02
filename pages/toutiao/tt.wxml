@@ -1,0 +1,29 @@
+<view class="tt_title">
+   <image  style="height:100rpx;width:100rpx;border-radius:50%;vertical-align:middle;"src="{{'http://www.chinascw.net/attachs/'+shop.photo}}" /> 
+   {{ shop.shop_name}}
+</view>
+<view class="bgc"></view>
+<view class="tt_text">
+  <view  class="tt_iphone">
+  电话：{{shop.tel}}
+  </view>
+  <view class="tt_addr">
+ {{shop.addr}}
+  </view>
+</view>
+<view class="bgc"></view>
+
+<view class="gg_detail">
+ <view class="gg_detail_title">{{ttDetails.title}}</view>
+ <view class="dd_detail_time">
+发布日期:{{ttDetails.create_time}}
+</view>
+
+<view class="dd-detail_information">
+{{ttDetails.details}}
+
+</view>
+</view>
+<view class="zx_img" style="text-align:center;">
+<image src="{{'http://www.chinascw.net/attachs/'+ttDetails.photo}}"/>
+</view>
